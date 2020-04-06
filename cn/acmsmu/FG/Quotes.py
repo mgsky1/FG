@@ -4,7 +4,7 @@
 @Date: 2020-04-03 19:52:09
 @Modify Notes: 
 '''
-from JsonUtils import JsonUtils
+from Utils.JsonUtils import JsonUtils
 from brainyquote import pybrainyquote
 import random
 import os

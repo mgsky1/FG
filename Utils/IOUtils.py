@@ -10,9 +10,7 @@ import os
 import hashlib
 import zipfile
 import pickle
-from ConversionUtils import ConversionUtils
-#Pycharm使用
-#from src.main.Utils.ConversionUtils import *
+from Utils.ConversionUtils import ConversionUtils
 
 class IOUtils:
     #获取文件大小(MB)

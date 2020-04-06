@@ -5,9 +5,9 @@
 @Modify Notes: 
 '''
 from textrank4zh import TextRank4Keyword
-from JsonUtils import JsonUtils
-from IOUtils import IOUtils
-from NetUtils import NetUtils
+from Utils.JsonUtils import JsonUtils
+from Utils.IOUtils import IOUtils
+from Utils.NetUtils import NetUtils
 from PIL import Image
 from wordcloud import WordCloud
 from cn.acmsmu.FG import Quotes

@@ -1,9 +1,9 @@
 
 from nonebot import on_notice, NoticeSession
-from NetUtils import NetUtils
+from Utils.NetUtils import NetUtils
 
 print('欢迎插件注册成功！')
-addr = ''
+addr = 'http://hhx.acmsmu.cn/4fb2cb55de07f6e6.gif'
 url1 = NetUtils.jsonApi2Dict('https://api.d5.nz/api/dwz/tcn.php',https=True,url=addr)
 if url1['code'] == '200':
     url1 = url1['url']
@@ -14,7 +14,7 @@ else:
 async def welcome(session:NoticeSession):
     print('群成员增加')
     print(str(session.event.group_id))
-    # 要发送的群号
+    # 要欢迎的群号
     if session.event.group_id == 123456:
         msg = '[CQ:at,qq='+str(session.event.user_id)+']\n欢迎进入哈哈笑的科幻群\n'\
             '我是第五代超级计算机FG\n'\

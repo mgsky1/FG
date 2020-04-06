@@ -6,16 +6,16 @@
 '''
 import nonebot
 import time
+import os
 from cn.acmsmu.FG import WelcomeMember
 from cn.acmsmu.FG import Timer
-import os
-from JsonUtils import JsonUtils
-from IOUtils import IOUtils
+from Utils.JsonUtils import JsonUtils
+from Utils.IOUtils import IOUtils
 
 configuration = JsonUtils.json2Dict(os.path.join(os.getcwd(),'cn','acmsmu','FG','data','config.json'))
 groupInfo = configuration['groupInfo']
 for each in groupInfo:
-    fpath = os.path.join(os.getcwd(),'cn','acmsmu','data',each['groupId'])
+    fpath = os.path.join(os.getcwd(),'cn','acmsmu','FG','data',each['groupId'])
     try:
         dataDict = dict()
         dataDict['flag'] = True

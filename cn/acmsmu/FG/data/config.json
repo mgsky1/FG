@@ -5,7 +5,7 @@
     "windowSize":5,
     "keyWordLen":3,
     "keyWordNum":50,
-    "fontPath":"",
+    "fontPath":"C:/Windows/Fonts/msyh.ttc",
     "groupInfo":[
         {
             "timer":"timer1",

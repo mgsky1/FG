@@ -13,12 +13,9 @@ import select
 import ssl
 import urllib.request
 from threading import Lock
-from ConversionUtils import ConversionUtils
-from IOUtils import IOUtils
+from Utils.ConversionUtils import ConversionUtils
+from Utils.IOUtils import IOUtils
 from JsonUtils import JsonUtils
-#pycharm使用
-#from src.main.Utils.ConversionUtils import *
-#from src.main.Utils.IOUtils import *
 
 class NetUtils:
 
