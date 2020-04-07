@@ -6,6 +6,10 @@
     "keyWordLen":3,
     "keyWordNum":50,
     "fontPath":"C:/Windows/Fonts/msyh.ttc",
+    "nonebotHost":"127.0.0.1",
+    "nonebotPort":8080,
+    "cqhttpHost":"127.0.0.1",
+    "cqhttpPort":5700,
     "groupInfo":[
         {
             "timer":"timer1",

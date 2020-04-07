@@ -20,17 +20,16 @@ FG的核心是一个称为**TextRank**的算法，它源自于Google的PageRank�
 > * textrank4zh >= 0.3
 > * [CQHTTP 酷Q插件](https://cqhttp.cc/docs/4.14/#/) >=4.8
 
-## Configuration
-需要在两个地方进行配置
-> * config.py
-> * cn/acmsmu/FG/data/config.json
+## Install
 
-### config.py
-
-```python
-from nonebot.default_config import *
-API_ROOT = 'http://127.0.0.1:5700'  # 这里 IP 和端口应与 CQHTTP 配置中的 `host` 和 `port` 对应
+进入项目根目录，然后运行
 ```
+pip install -r requirement.txt
+```
+
+## Configuration
+配置文件位置
+> * cn/acmsmu/FG/data/config.json
 
 ### config.json
 
@@ -45,6 +44,10 @@ API_ROOT = 'http://127.0.0.1:5700'  # 这里 IP 和端口应与 CQHTTP 配置中
     "keyWordLen":3,//小于此长度的词将不会被显示，默认为3
     "keyWordNum":50,//热词数量，默认50
     "fontPath":"C:/Windows/Fonts/msyh.ttc",//字体，用于生成词云
+    "nonebotHost":"127.0.0.1",//Nonebot监听地址，具体可参考官方文档的“开始使用小节”
+    "nonebotPort":8080,//Nonebot监听端口
+    "cqhttpHost":"127.0.0.1",//CQHttp运行端口
+    "cqhttpPort":5700,//CQHttp监听端口
     "groupInfo":[//群信息数组
         {
             "timer":"timer1",//定时器名称
@@ -90,7 +93,7 @@ API_ROOT = 'http://127.0.0.1:5700'  # 这里 IP 和端口应与 CQHTTP 配置中
 ## Run
 配置完成后，在根目录下运行
 ```python
-python3 bot.py
+python bot.py
 ```
 
 ## ScreenShots
