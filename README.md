@@ -37,8 +37,8 @@ pip install -r requirement.txt
 
 ```
 {
-    "serverPath":"", //存放图片的目录，要保证能够通过域名或ip+端口号的形式访问。由于air不能发图，所以图片都是通过链接发送的。注意，一定要以反斜杠结尾！
-    "domain":"",//域名，如果没有的话可以填写ip+端口号
+    "serverPath":"D:/DocumentRoot/", //存放图片的目录，要保证能够通过域名或ip+端口号的形式访问。由于air不能发图，所以图片都是通过链接发送的。注意，一定要以反斜杠结尾！
+    "domain":"test.com",//域名，如果没有的话可以填写ip+端口号,eg. 127.0.0.1:9000
     "reqType":"http",//图片网站请求类型,http或者https
     "windowSize":5,//设置TextRank算法的窗口大小，默认为5
     "keyWordLen":3,//小于此长度的词将不会被显示，默认为3
@@ -52,7 +52,7 @@ pip install -r requirement.txt
         {
             "timer":"timer1",//定时器名称
             "interval":60,//定时时间，以秒为单位
-            "groupId":""//群号
+            "groupId":"123456"//群号
         }
     ],
     "wcImg":[//用于生成词云的图片数组
@@ -63,7 +63,7 @@ pip install -r requirement.txt
         }
     ],
     "template":[{//总结模板数组，一个群要定义两个，一个正常模式，另外一个用于没有热词生成时使用，模板里出现的time，content等非数字标签请不要修改，但是位置可以随意，并没有要求要全部出现，出现其中的某些也是可以的
-        "groupId":"",//群号
+        "groupId":"123456",//群号
         "content":[
         {
             "0":"@所有人",
