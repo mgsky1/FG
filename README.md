@@ -51,7 +51,7 @@ pip install -r requirement.txt
     "groupInfo":[//群信息数组
         {
             "timer":"timer1",//定时器名称
-            "interval":60,//定时时间，以秒为单位
+            "interval":60,//定时时间，以秒为单位,时间到了以后，会发送每日总结
             "groupId":"123456"//群号
         }
     ],
