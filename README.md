@@ -35,7 +35,7 @@ pip install -r requirement.txt
 
 下面是一个样例
 
-```json
+```
 {
     "serverPath":"", //存放图片的目录，要保证能够通过域名或ip+端口号的形式访问。由于air不能发图，所以图片都是通过链接发送的。注意，一定要以反斜杠结尾！
     "domain":"",//域名，如果没有的话可以填写ip+端口号
@@ -97,8 +97,13 @@ python bot.py
 ```
 
 ## ScreenShots
+每日总结
 
-![](https://blog.acmsmu.cn/wp-content/uploads/2020/04/20200406235704.jpg)
+![](https://blog.acmsmu.cn/wp-content/uploads/2020/04/20200407000945.png)
+
+词云
+
+![](https://blog.acmsmu.cn/wp-content/uploads/2020/04/20200407001508.png)
 
 ## Note
 FG也即Five Generation，第五代超级计算机，灵感来自于刘慈欣长篇科幻，《超新星纪元》
