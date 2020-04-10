@@ -1,0 +1,37 @@
+{
+  "id": "BF00083",
+  "language": "中文",
+  "originalLanguage": "英文",
+  "isNovel": false,
+  "type": "个人专著",
+  "title": "〈星球大战〉里的科学",
+  "subtitle": "",
+  "isbn": "9787550270190",
+  "pubDate": "2016-04",
+  "publisher": "北京联合出版公司",
+  "publicationPlace": "北京",
+  "producer": "",
+  "authors": [
+    {
+      "id": "",
+      "name": "[美] 珍妮·卡维洛斯"
+    }
+  ],
+  "translators": [
+    {
+      "id": "",
+      "name": "周思颖"
+    },
+    {
+      "id": "",
+      "name": "曹烨"
+    }
+  ],
+  "editors": [
+    {
+      "id": "",
+      "name": "吴奕俊"
+    }
+  ],
+  "links": []
+}

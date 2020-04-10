@@ -1,0 +1,37 @@
+{
+  "id": "BF00055",
+  "language": "中文",
+  "originalLanguage": "日文",
+  "isNovel": true,
+  "type": "长篇小说",
+  "title": "日本沉没",
+  "subtitle": "",
+  "isbn": "9787201105420",
+  "pubDate": "2016-07",
+  "publisher": "天津人民出版社",
+  "publicationPlace": "天津",
+  "producer": "",
+  "authors": [
+    {
+      "id": "",
+      "name": "[日] 小松左京"
+    }
+  ],
+  "translators": [
+    {
+      "id": "",
+      "name": "高晓钢"
+    },
+    {
+      "id": "",
+      "name": "张平"
+    }
+  ],
+  "editors": [
+    {
+      "id": "",
+      "name": "陈晓琴"
+    }
+  ],
+  "links": []
+}

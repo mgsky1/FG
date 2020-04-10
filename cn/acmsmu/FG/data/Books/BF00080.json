@@ -1,0 +1,36 @@
+{
+  "id": "BF00080",
+  "language": "中文",
+  "originalLanguage": "英文",
+  "isNovel": false,
+  "type": "个人专著",
+  "title": "星球大战：终极视觉指南（升级扩展版）",
+  "subtitle": "",
+  "isbn": "9787534171376",
+  "pubDate": "2016-04",
+  "publisher": "浙江科学技术出版社",
+  "publicationPlace": "杭州",
+  "producer": "",
+  "authors": [
+    {
+      "id": "",
+      "name": "[美] 赖德·温德姆"
+    },
+    {
+      "id": "",
+      "name": "[美] 丹尼尔·华莱士"
+    }
+  ],
+  "translators": [
+    {
+      "id": "",
+      "name": "翁建武"
+    },
+    {
+      "id": "",
+      "name": "张可"
+    }
+  ],
+  "editors": [],
+  "links": []
+}

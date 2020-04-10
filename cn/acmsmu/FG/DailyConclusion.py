@@ -10,7 +10,7 @@ from Utils.IOUtils import IOUtils
 from Utils.NetUtils import NetUtils
 from PIL import Image
 from wordcloud import WordCloud
-from cn.acmsmu.FG import Quotes
+from cn.acmsmu.FG.ExtraFunction import ExtraFunction
 import os
 import time
 import re
@@ -51,6 +51,8 @@ class DailyConlusion:
                         isFirst = False
                     else:
                         if re.search('^\d{4}-\d{2}-\d{1,2} \d{1,2}:\d{2}:\d{2} \d{5,11}',eachLine) is None:
+                            if eachLine.find('<?xml') != -1:
+                                continue
                             # 正则非贪婪模式 过滤CQ码
                             eachLine = re.sub('\[CQ:\w+,.+?\]','',eachLine)
                             #过滤URL
@@ -122,13 +124,13 @@ class DailyConlusion:
                 template2 = each['content'][1]
                 break
         tempReport = self.__generateWC()
-        sentences = Quotes.Quotes.sentence_of_a_day()
+        sentences = ExtraFunction.quotesAndBooks()
         if tempReport is None:
             for eachLine in template2.items():
                 tempStr = eachLine[1]
                 if eachLine[0] == 'threebody':
                     tempStr = tempStr.replace('{string}',sentences[0])
-                elif eachLine[0] == 'wcf':
+                elif eachLine[0] == 'recbooks':
                     tempStr = tempStr.replace('{string}',sentences[1])
                 report += tempStr+'\n'
             return report
@@ -148,7 +150,7 @@ class DailyConlusion:
                     tempStr = tempStr.replace('{img}',tempReport[1][1])
                 elif eachLine[0] == 'threebody':
                     tempStr = tempStr.replace('{string}',sentences[0])
-                elif eachLine[0] == 'wcf':
+                elif eachLine[0] == 'recbooks':
                     tempStr = tempStr.replace('{string}',sentences[1])
                 report += tempStr+'\n'
             return report

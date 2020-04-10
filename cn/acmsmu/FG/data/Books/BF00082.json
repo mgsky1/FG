@@ -1,0 +1,32 @@
+{
+  "id": "BF00082",
+  "language": "中文",
+  "originalLanguage": "英文",
+  "isNovel": false,
+  "type": "个人专著",
+  "title": "星球大战：绝地奥义",
+  "subtitle": "",
+  "isbn": "9787534169489",
+  "pubDate": "2016-01",
+  "publisher": "浙江科学技术出版社",
+  "publicationPlace": "杭州",
+  "producer": "",
+  "authors": [
+    {
+      "id": "",
+      "name": "[美] 伊丽莎白·多塞特"
+    },
+    {
+      "id": "",
+      "name": "[英] 沙里·拉斯特"
+    }
+  ],
+  "translators": [
+    {
+      "id": "",
+      "name": "秦鹏"
+    }
+  ],
+  "editors": [],
+  "links": []
+}

@@ -14,8 +14,7 @@ else:
 async def welcome(session:NoticeSession):
     print('群成员增加')
     print(str(session.event.group_id))
-    # 要欢迎的群号
-    if session.event.group_id == 123456:
+    if session.event.group_id == 691283312:
         msg = '[CQ:at,qq='+str(session.event.user_id)+']\n欢迎进入哈哈笑的科幻群\n'\
             '我是第五代超级计算机FG\n'\
             '我为你准备了一份入群礼物[CQ:face,id=178]\n'+url1+'\n'+\
