@@ -3,6 +3,7 @@
 @author: Martin Huang
 @time: created on 2020/4/4 16:22
 @修改记录:
+        2020/4/12 => 修改定时器模式
 '''
 import nonebot
 import os
@@ -33,5 +34,7 @@ configuration = JsonUtils.json2Dict(os.path.join(os.getcwd(),'cn','acmsmu','FG',
 print(configuration)
 groupInfo = configuration['groupInfo']
 for each in groupInfo:
-    nonebot.scheduler.add_job(handleTimer, 'interval', seconds=each['interval'],args=[each['timer'],each['groupId']])
-    print(each['timer']+'定时任务添加成功')
+    hour = each['beginHour']
+    minutes = each['beginMinutes']
+    nonebot.scheduler.add_job(handleTimer, 'cron',hour=hour,minute=minutes,args=[each['timer'],each['groupId']])
+    print('定时器' + each['timer'] + '定时任务添加成功!')
