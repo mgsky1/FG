@@ -13,7 +13,8 @@
     "groupInfo":[
         {
             "timer":"timer1",
-            "interval":60,
+            "beginHour":23,
+            "beginMinutes":0,
             "groupId":""
         }
     ],
