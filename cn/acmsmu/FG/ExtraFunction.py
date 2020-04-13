@@ -12,7 +12,7 @@ class ExtraFunction:
         tbsd = JsonUtils.json2Dict(os.path.join(os.getcwd(),'cn','acmsmu','FG','data','sentences.json'))
         index = round(random.uniform(0,424))
         threebodySentence = tbsd[index].replace('\r~','\n')
-        index1 = round(random.uniform(0, 117))
+        index1 = round(random.uniform(1, 117))
         index1 = '{:0>5d}'.format(index1)
         recommend_books = JsonUtils.json2Dict(os.path.join(os.getcwd(),'cn','acmsmu','FG','data','Books','BC'+index1+'.json'))
         if len(recommend_books['authors']) == 0:
