@@ -10,3 +10,4 @@ import os
 configuration = JsonUtils.json2Dict(os.path.join(os.getcwd(),'cn','acmsmu','FG','data','config.json'))
 API_ROOT_URL = 'http://'+configuration['cqhttpHost']+':'+str(configuration['cqhttpPort'])
 API_ROOT = API_ROOT_URL
+COMMAND_START = {'', '/', '!', '／', '！'}
