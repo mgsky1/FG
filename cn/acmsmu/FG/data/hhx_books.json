@@ -7,7 +7,7 @@
                 "platform":["hhx.xyz"],
                 "dPath":[
                     "群文件/三体1",
-                    "https://www.hhx.xyz/product/the-threebody-problem-1/"
+                    "hhx.xyz下载区"
                 ]
             },
             {
@@ -15,7 +15,7 @@
                 "platform":["hhx.xyz"],
                 "dPath":[
                     "群文件/三体2",
-                    "https://www.hhx.xyz/product/the-dark-forest/"
+                    "hhx.xyz下载区"
                 ]
             },
             {
@@ -23,7 +23,7 @@
                 "platform":["hhx.xyz"],
                 "dPath":[
                     "群文件/三体2",
-                    "https://www.hhx.xyz/product/deaths_end/"
+                    "hhx.xyz下载区"
                 ]
             },
             {
@@ -162,7 +162,7 @@
             {
                 "bookName":"地火",
                 "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
+                "dPath":["https://pan.baidu.com/s/1AqZGjywQspIR8oQ3IvWOQA","密码:5ifb"]
             },
             {
                 "bookName":"月夜",
@@ -668,7 +668,7 @@
             {
                 "bookName":"文明",
                 "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":["https://www.hhx.xyz/product/civilization/"]
+                "dPath":["hhx.xyz下载区"]
             }
         ]
     },
@@ -688,7 +688,7 @@
             {
                 "bookName":"1984",
                 "platform":["hhx.xyz"],
-                "dPath":["https://www.hhx.xyz/product/1984/"]
+                "dPath":["hhx.xyz下载区"]
             }
         ]
     }

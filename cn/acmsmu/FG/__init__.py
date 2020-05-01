@@ -9,7 +9,8 @@ import time
 import os
 from cn.acmsmu.FG import WelcomeMember
 from cn.acmsmu.FG import SearchBooks
-from cn.acmsmu.FG import Timer
+from cn.acmsmu.FG import ReportTimer
+from cn.acmsmu.FG import PodcastTimer
 from Utils.JsonUtils import JsonUtils
 from Utils.IOUtils import IOUtils
 
