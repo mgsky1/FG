@@ -44,25 +44,29 @@ def getPodcastList():
         print('出错了')
     return None
 
-@nonebot.scheduler.scheduled_job('cron',hour=12)
+@nonebot.scheduler.scheduled_job('cron',hour=17,minute=20)
 async def podcastHandler():
     jsonDict = getPodcastList()
     reportPrefix = '@所有人\n'\
                     '大家好，我是FG，第五代电子计算机，这是FG在向群里所有成员广播：\n'\
                     '我探测到群主大屁股老鼠哈哈笑老师在过去24小时内更新了以下作品：\n'
+    specialPrefix = '哈哈笑科幻群的首席资源官，XXXXX，你好，我是FG，第五代电子计算机\n' \
+                    '我探测到大屁股老鼠哈哈笑老师在过去24小时内更新了以下作品：\n'
     report = ''
     if jsonDict is not None:
         trackList = jsonDict['data']['trackList']
         index = 1
         for item in trackList:
-            if item['createTimeAsString'].find('小时前') != -1:
+            if item['createTimeAsString'].find('小时前') != -1 or item['createTimeAsString'].find('分钟前') != -1:
                 report += str(index)+'、《'+item['title']+'》\n'\
                 '所属专辑：【'+item['albumTitle']+'】\n'\
                 '收听平台：喜马拉雅，传送门-> https://www.ximalaya.com/'+item['trackUrl']+'\n'
                 index += 1
     if report != '':
         bot = nonebot.get_bot()
+        specialReport = specialPrefix + report
         report = reportPrefix + report
-        await bot.send_group_msg(group_id=int('460709626'), message=report)
+        await bot.send_group_msg(group_id=int('691283312'), message=report)
+        await bot.send_private_msg(user_id=int('123456'),message=specialReport)
 
 print('哈哈笑的有声书更新播报插件加载完成')
