@@ -66,7 +66,7 @@ async def podcastHandler():
         bot = nonebot.get_bot()
         specialReport = specialPrefix + report
         report = reportPrefix + report
-        await bot.send_group_msg(group_id=int('691283312'), message=report)
+        await bot.send_group_msg(group_id=int('123456'), message=report)
         await bot.send_private_msg(user_id=int('123456'),message=specialReport)
 
 print('哈哈笑的有声书更新播报插件加载完成')
