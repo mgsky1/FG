@@ -5,6 +5,7 @@
 @Modify Notes: 
     2020/04/01 => 增加从指定路径读取JSON配置文件，并返回字典
     2020/04/01 => 增加将JSON字符串转换成字典返回
+    2020/05/05 => 增加将JSON字典写回文件功能
 '''
 import json
 
@@ -20,7 +21,7 @@ class JsonUtils:
         jsonDict = json.loads(jsonString)
         return jsonDict
 
-    # 将JSON字符串写回文件
+    # 将JSON字典写回文件
     def json2File(path,jsonDict):
         with open(path,'w',encoding='utf-8') as f:
             json.dump(jsonDict,f,ensure_ascii=False,indent=4)
