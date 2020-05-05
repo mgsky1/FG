@@ -19,3 +19,8 @@ class JsonUtils:
     def jsonStr2Dict(jsonString):
         jsonDict = json.loads(jsonString)
         return jsonDict
+
+    # 将JSON字符串写回文件
+    def json2File(path,jsonDict):
+        with open(path,'w',encoding='utf-8') as f:
+            json.dump(jsonDict,f,ensure_ascii=False,indent=4)

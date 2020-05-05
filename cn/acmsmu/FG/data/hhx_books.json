@@ -1,694 +1,1334 @@
 [
     {
-        "author":"刘慈欣",
-        "works":[
+        "author": "刘慈欣",
+        "works": [
             {
-                "bookName":"三体1——地球往事",
-                "platform":["hhx.xyz"],
-                "dPath":[
+                "bookName": "三体1——地球往事",
+                "platform": [
+                    "hhx.xyz"
+                ],
+                "dPath": [
                     "群文件/三体1",
                     "hhx.xyz下载区"
                 ]
             },
             {
-                "bookName":"三体2——黑暗森林",
-                "platform":["hhx.xyz"],
-                "dPath":[
+                "bookName": "三体2——黑暗森林",
+                "platform": [
+                    "hhx.xyz"
+                ],
+                "dPath": [
                     "群文件/三体2",
                     "hhx.xyz下载区"
                 ]
             },
             {
-                "bookName":"三体3——死神永生",
-                "platform":["hhx.xyz"],
-                "dPath":[
+                "bookName": "三体3——死神永生",
+                "platform": [
+                    "hhx.xyz"
+                ],
+                "dPath": [
                     "群文件/三体2",
                     "hhx.xyz下载区"
                 ]
             },
             {
-                "bookName":"超新星纪元",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[
+                "bookName": "超新星纪元",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": [
                     "群文件/超新星纪元"
                 ]
             },
             {
-                "bookName":"球状闪电",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "球状闪电",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/球状闪电"
                 ]
             },
             {
-                "bookName":"赡养人类",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "赡养人类",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/刘慈欣.2005.赡养人类(全7集).rar"
                 ]
             },
             {
-                "bookName":"朝闻道",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "朝闻道",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/刘慈欣_朝闻道【萧然小女子、哈哈笑】(全4集).rar"
                 ]
             },
             {
-                "bookName":"人和吞食者",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "人和吞食者",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/人和吞食者.rar"
                 ]
             },
             {
-                "bookName":"带上她的眼睛",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "带上她的眼睛",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/刘慈欣_带上她的眼睛【萧然小女子、哈哈笑】(全2集).rar"
                 ]
             },
             {
-                "bookName":"微纪元",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "微纪元",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/刘慈欣_微纪元(全3集).rar"
                 ]
             },
             {
-                "bookName":"山",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[
+                "bookName": "山",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/刘慈欣_山(全6集).rar"
                 ]
             },
             {
-                "bookName":"镜子",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "镜子",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/镜子.rar"
                 ]
             },
             {
-                "bookName":"流浪地球",
-                "platform":["hhx.xyz"],
-                "dPath":[
+                "bookName": "流浪地球",
+                "platform": [
+                    "hhx.xyz"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/流浪地球.rar"
                 ]
             },
             {
-                "bookName":"梦之海",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "梦之海",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/刘慈欣_梦之海(全5集).rar"
                 ]
             },
             {
-                "bookName":"圆圆的肥皂泡",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "圆圆的肥皂泡",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/刘慈欣_圆圆的肥皂泡(全3集).rar"
                 ]
             },
             {
-                "bookName":"混沌蝴蝶",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "混沌蝴蝶",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/混沌蝴蝶.rar"
                 ]
             },
             {
-                "bookName":"坍缩",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "坍缩",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/刘慈欣_坍缩(全2集).rar"
                 ]
             },
             {
-                "bookName":"诗云",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "诗云",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/诗云.rar"
                 ]
             },
             {
-                "bookName":"乡村教师",
-                "platform":["hhx.xyz"],
-                "dPath":[
+                "bookName": "乡村教师",
+                "platform": [
+                    "hhx.xyz"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/乡村老师.rar"
                 ]
             },
             {
-                "bookName":"赡养上帝",
-                "platform":["hhx.xyz"],
-                "dPath":[
+                "bookName": "赡养上帝",
+                "platform": [
+                    "hhx.xyz"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/赡养上帝.rar"
                 ]
             },
             {
-                "bookName":"中国太阳",
-                "platform":["hhx.xyz"],
-                "dPath":[
+                "bookName": "中国太阳",
+                "platform": [
+                    "hhx.xyz"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/中国太阳.rar"
                 ]
             },
             {
-                "bookName":"思想者",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[
+                "bookName": "思想者",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
                     "群文件/刘慈欣短篇集(哈哈笑播讲)/思想者.rar"
                 ]
             },
             {
-                "bookName":"地火",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":["https://pan.baidu.com/s/1AqZGjywQspIR8oQ3IvWOQA","密码:5ifb"]
+                "bookName": "地火",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
+                    "https://pan.baidu.com/s/1AqZGjywQspIR8oQ3IvWOQA",
+                    "密码:5ifb"
+                ]
             },
             {
-                "bookName":"月夜",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
+                "bookName": "月夜",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"信使",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
+                "bookName": "信使",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"纤维",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
+                "bookName": "纤维",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"微观尽头",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
+                "bookName": "微观尽头",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"太原之恋",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
+                "bookName": "太原之恋",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"魔鬼积木",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
+                "bookName": "魔鬼积木",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"时间移民",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
+                "bookName": "时间移民",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"命运",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
+                "bookName": "命运",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"光荣与梦想",
-                "platform":["hhx.xyz","荔枝FM"],
-                "dPath":[]
+                "bookName": "光荣与梦想",
+                "platform": [
+                    "hhx.xyz",
+                    "荔枝FM"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"地球大炮",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
+                "bookName": "地球大炮",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"欢乐颂",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
+                "bookName": "欢乐颂",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"西洋",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
+                "bookName": "西洋",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"2018年4月1日",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
+                "bookName": "2018年4月1日",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"鲸歌",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
+                "bookName": "鲸歌",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"中国2185",
-                "platform":["hhx.xyz"],
-                "dPath":[]
+                "bookName": "中国2185",
+                "platform": [
+                    "hhx.xyz"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"白垩纪往事",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            }
-            
-        ]
-    },
-    {
-        "author":"江波",
-        "works":[
-            {
-                "bookName":"机器之门",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            }
-        ]
-    },
-    {
-        "author":"白丁",
-        "works":[
-            {
-                "bookName":"云球(第一部)",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"云球(第二部)",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"云球(第三部)",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            }
-        ]
-    },
-    {
-        "author":"阿西莫夫",
-        "works":[
-            {
-                "bookName":"神们自己",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国3——第二基地",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国2——基地与帝国",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国1——基地",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国4——基地前奏",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国5——迈向基地",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国6——基地边缘",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国8——我，机器人",
-                "platform":["喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"永恒的终结",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国7——基地与地球",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国10——裸阳",
-                "platform":["喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国11——曙光中的机器人",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国4——基地前奏",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国9——钢穴",
-                "platform":["喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国13——繁星若尘",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"银河帝国12——机器人与帝国",
-                "platform":["喜马拉雅"],
-                "dPath":[]
+                "bookName": "白垩纪往事",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
             }
         ]
     },
     {
-        "author":"倪匡",
-        "works":[
+        "author": "江波",
+        "works": [
             {
-                "bookName":"卫斯理系列18:合成",
-                "platform":["hhx.xyz"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列16:奇门",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列17:尸变",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列15:蛊惑",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列14:换头记",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列13:红月亮",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列12:不死药",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列11:支离人",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列10:天外金球",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列9:原子空间",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列4:蓝血人",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列8:奇玉",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列7:蜂云",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列6:地心烘炉",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列5:透明光",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列23:湖水",
-                "platform":["hhx.xyz","喜马拉雅","荔枝FM"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列22:尽头",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列21:再来一次",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列20:丛林之神",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列19:笔友",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列3:妖火",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列2:地底奇人",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"卫斯理系列1:钻石花",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠1:天人",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠2:迷路",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠3:血咒",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠4:海异",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠10:魔女",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠13:巫艳",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠6:灵椅",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠5:宝狐",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠16:大犯罪者",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠7:奇缘",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠17:幽灵星座",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠19:迷失乐园",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠15:寻找爱神",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠12:失魂",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠9:鬼界",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠14:爱神",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠20:劫数",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠18:黑暗天使",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠21:快活秘方",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠8:精怪",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠28:无间地狱",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠29:人鬼疑云",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠32:天皇巨星",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠31:宇宙杀手",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠23:血的诱惑",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠30:魂飞魄散",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠26:自杀阴谋",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠25:黑白无常",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠22:变换双星",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠27:假太阳",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"原振侠24:催命情圣",
-                "platform":["喜马拉雅"],
-                "dPath":[]
-            },
-            {
-                "bookName":"梁从诫环境文集",
-                "platform":["喜马拉雅"],
-                "dPath":[]
+                "bookName": "机器之门",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
             }
         ]
     },
     {
-        "author":"特德姜",
-        "works":[
+        "author": "白丁",
+        "works": [
             {
-                "bookName":"领悟",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
+                "bookName": "云球（第一部）",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"巴比伦塔",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
+                "bookName": "云球（第二部）",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
             },
             {
-                "bookName":"地狱是上帝不在的地方",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":[]
+                "bookName": "云球（第三部）",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
             }
         ]
     },
     {
-        "author":"智齿",
-        "works":[
+        "author": "阿西莫夫",
+        "works": [
             {
-                "bookName":"文明",
-                "platform":["hhx.xyz","喜马拉雅"],
-                "dPath":["hhx.xyz下载区"]
+                "bookName": "神们自己",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国3——第二基地",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国2——基地与帝国",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国1——基地",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国4——基地前奏",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国5——迈向基地",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国6——基地边缘",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国8——我，机器人",
+                "platform": [
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "永恒的终结",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国7——基地与地球",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国10——裸阳",
+                "platform": [
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国11——曙光中的机器人",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国4——基地前奏",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国9——钢穴",
+                "platform": [
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国13——繁星若尘",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "银河帝国12——机器人与帝国",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
             }
         ]
     },
     {
-        "author":"埃德蒙-哈密尔顿",
-        "works":[
+        "author": "倪匡",
+        "works": [
             {
-                "bookName":"重返群星",
-                "platform":["喜马拉雅"],
-                "dPath":[]
+                "bookName": "卫斯理系列18:合成",
+                "platform": [
+                    "hhx.xyz"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列16:奇门",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列17:尸变",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列15:蛊惑",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列14:换头记",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列13:红月亮",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列12:不死药",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列11:支离人",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列10:天外金球",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列9:原子空间",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列4:蓝血人",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列8:奇玉",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列7:蜂云",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列6:地心烘炉",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列5:透明光",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列23:湖水",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅",
+                    "荔枝FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列22:尽头",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列21:再来一次",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列20:丛林之神",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列19:笔友",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列3:妖火",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列2:地底奇人",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "卫斯理系列1:钻石花",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠1:天人",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠2:迷路",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠3:血咒",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠4:海异",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠10:魔女",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠13:巫艳",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠6:灵椅",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠5:宝狐",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠16:大犯罪者",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠7:奇缘",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠17:幽灵星座",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠19:迷失乐园",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠15:寻找爱神",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠12:失魂",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠9:鬼界",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠14:爱神",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠20:劫数",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠18:黑暗天使",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠21:快活秘方",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠8:精怪",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠28:无间地狱",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠29:人鬼疑云",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠32:天皇巨星",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠31:宇宙杀手",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠23:血的诱惑",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠30:魂飞魄散",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠26:自杀阴谋",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠25:黑白无常",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠22:变换双星",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠27:假太阳",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "原振侠24:催命情圣",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "梁从诫环境文集",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
             }
         ]
     },
     {
-        "author":"乔治·奥威尔",
-        "works":[
+        "author": "特德姜",
+        "works": [
             {
-                "bookName":"1984",
-                "platform":["hhx.xyz"],
-                "dPath":["hhx.xyz下载区"]
+                "bookName": "领悟",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "巴比伦塔",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "地狱是上帝不在的地方",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            }
+        ]
+    },
+    {
+        "author": "智齿",
+        "works": [
+            {
+                "bookName": "文明",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": [
+                    "hhx.xyz下载区"
+                ]
+            }
+        ]
+    },
+    {
+        "author": "埃德蒙-哈密尔顿",
+        "works": [
+            {
+                "bookName": "重返群星",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            }
+        ]
+    },
+    {
+        "author": "乔治·奥威尔",
+        "works": [
+            {
+                "bookName": "1984",
+                "platform": [
+                    "hhx.xyz"
+                ],
+                "dPath": [
+                    "hhx.xyz下载区"
+                ]
+            }
+        ]
+    },
+    {
+        "author": "徐云峰",
+        "works": [
+            {
+                "bookName": "宜昌鬼事之诡道01--墓地茄声",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共4集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道02--借命",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共3集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道03--森森溶洞",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共7集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道04--走胎",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共10集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道05--拜师之失魂记",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共8集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道06--拜师之赶尸记",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共14集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道07--治坟",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共4集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道08--诡道算术之看蜡",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共3集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道09--大鲵村",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共7集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道10--诡道算术之听弦",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共8集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道11--玉真宫",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共9集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道12--诡道算术之算沙",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共9集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道13--有关《黑暗传》",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共10集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事之诡道14--龙蛇争霸",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共11集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事2之过阴",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共37集"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宜昌鬼事--八寒地狱",
+                "platform": [
+                    "抱歉，由于版权原因，该作品已被喜马拉雅下架，原故事共74集"
+                ],
+                "dPath": []
+            }
+        ]
+    },
+    {
+        "author": "郝景芳",
+        "works": [
+            {
+                "bookName": "北京折叠",
+                "platform": [
+                    "企鹅FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "弦歌",
+                "platform": [
+                    "企鹅FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "繁华中央",
+                "platform": [
+                    "企鹅FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "宇宙剧场",
+                "platform": [
+                    "企鹅FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "最后一个勇敢的人",
+                "platform": [
+                    "企鹅FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "生死域",
+                "platform": [
+                    "企鹅FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "阿房宫",
+                "platform": [
+                    "企鹅FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "谷神的飞翔",
+                "platform": [
+                    "企鹅FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "深山疗养院",
+                "platform": [
+                    "企鹅FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "孤单病房",
+                "platform": [
+                    "企鹅FM"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "拖延症患者",
+                "platform": [
+                    "企鹅FM"
+                ],
+                "dPath": []
+            }
+        ]
+    },
+    {
+        "author": "阿瑟·克拉克",
+        "works": [
+            {
+                "bookName": "遥远的地球之歌",
+                "platform": [
+                    "hhx.xyz"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "最后一个地球人",
+                "platform": [
+                    "暂无"
+                ],
+                "dPath": []
+            },
+            {
+                "bookName": "地光",
+                "platform": [
+                    "hhx.xyz"
+                ],
+                "dPath": []
+            }
+        ]
+    },
+    {
+        "author": "哈哈笑",
+        "works": [
+            {
+                "bookName": "脑洞故事铺",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            }
+        ]
+    },
+    {
+        "author": "方莹",
+        "works": [
+            {
+                "bookName": "美丽食人鱼",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            }
+        ]
+    },
+    {
+        "author": "仲孝轩",
+        "works": [
+            {
+                "bookName": "茅山捉鬼专家+番外篇",
+                "platform": [
+                    "网易云音乐"
+                ],
+                "dPath": []
+            }
+        ]
+    },
+    {
+        "author": "罗伯特·海因莱恩",
+        "works": [
+            {
+                "bookName": "你们这些还魂尸",
+                "platform": [
+                    "hhx.xyz",
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            }
+        ]
+    },
+    {
+        "author": "老沈",
+        "works": [
+            {
+                "bookName": "沉香-为什么这么香",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            }
+        ]
+    },
+    {
+        "author": "梁从诫",
+        "works": [
+            {
+                "bookName": "梁从诫环境文集",
+                "platform": [
+                    "喜马拉雅"
+                ],
+                "dPath": []
+            }
+        ]
+    },
+    {
+        "author": "奇普·雅各布斯",
+        "works": [
+            {
+                "bookName": "洛杉矶雾霾启示录",
+                "platform": [
+                    "暂无"
+                ],
+                "dPath": []
             }
         ]
     }

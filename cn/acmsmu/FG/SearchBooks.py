@@ -19,7 +19,10 @@ async def searchByKeyWords(key:str) -> str:
             if works['bookName'].find(key) != -1:
                 res.append(works)
     if len(res) == 0:
-        return "您要查找的有声书在FG的数据库中没有记录"
+        return '您要查找的有声书在FG的数据库中没有记录，可能由于以下原因:\n'\
+                +'1、真的找不到\n'\
+                +'2、召唤我的姿势不对，请确认暗号【@第五代超级计算机FG 书名】'\
+                +' 例如【@第五代超级计算机FG 三体】'
 
     if len(res) > 5:
         report = 'FG找到的内容有点多，请确认要查找的有声书后再次艾特我进行搜书\n'
@@ -29,7 +32,7 @@ async def searchByKeyWords(key:str) -> str:
     else:
         report = 'FG已为您检索到以下内容：\n'
         for each in res:
-            report += '书名：'+each['bookName']+'\n'
+            report += '书名：《'+each['bookName']+'》\n'
             if len(each['platform']) != 0:
                 report += '收听平台:\n'
                 for eachPlatform in each['platform']:

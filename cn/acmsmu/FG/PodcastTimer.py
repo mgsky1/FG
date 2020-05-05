@@ -11,7 +11,9 @@ import requests
 import time
 import random
 import nonebot
+import os
 from Utils.JsonUtils import JsonUtils
+from cn.acmsmu.FG.SearchBooks import searchByKeyWords
 
 
 def xm_md5():
@@ -44,7 +46,7 @@ def getPodcastList():
         print('出错了')
     return None
 
-@nonebot.scheduler.scheduled_job('cron',hour=17,minute=20)
+@nonebot.scheduler.scheduled_job('cron',hour=12)
 async def podcastHandler():
     jsonDict = getPodcastList()
     reportPrefix = '@所有人\n'\
@@ -57,11 +59,26 @@ async def podcastHandler():
         trackList = jsonDict['data']['trackList']
         index = 1
         for item in trackList:
-            if item['createTimeAsString'].find('小时前') != -1 or item['createTimeAsString'].find('分钟前') != -1:
+            if item['createTimeAsString'].find('天前') != -1 or item['createTimeAsString'].find('分钟前') != -1:
                 report += str(index)+'、《'+item['title']+'》\n'\
                 '所属专辑：【'+item['albumTitle']+'】\n'\
-                '收听平台：喜马拉雅，传送门-> https://www.ximalaya.com/'+item['trackUrl']+'\n'
+                '收听平台：喜马拉雅，传送门-> https://www.ximalaya.com'+item['trackUrl']+'\n'
                 index += 1
+                msg = await searchByKeyWords(item['albumTitle'])
+                print(msg)
+                booksDictList = JsonUtils.json2Dict(
+                    os.path.join(os.getcwd(), 'cn', 'acmsmu', 'FG', 'data', 'hhx_books.json'))
+                # 自动更新hhx_books.json
+                if msg.find('您要查找的有声书在FG的数据库中没有记录') != -1:
+                    for eachItem in booksDictList:
+                        if eachItem['author'] == '哈哈笑':
+                            bookInfo = {'bookName':item['albumTitle'],'platform':['喜马拉雅'],'dPath':[]}
+                            eachItem['works'].append(bookInfo)
+                            # 写回
+                            JsonUtils.json2File(
+                                os.path.join(os.getcwd(), 'cn', 'acmsmu', 'FG', 'data', 'hhx_books.json'),
+                                booksDictList)
+                            break
     if report != '':
         bot = nonebot.get_bot()
         specialReport = specialPrefix + report
