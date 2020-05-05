@@ -59,7 +59,7 @@ async def podcastHandler():
         trackList = jsonDict['data']['trackList']
         index = 1
         for item in trackList:
-            if item['createTimeAsString'].find('天前') != -1 or item['createTimeAsString'].find('分钟前') != -1:
+            if item['createTimeAsString'].find('小时前') != -1 or item['createTimeAsString'].find('分钟前') != -1:
                 report += str(index)+'、《'+item['title']+'》\n'\
                 '所属专辑：【'+item['albumTitle']+'】\n'\
                 '收听平台：喜马拉雅，传送门-> https://www.ximalaya.com'+item['trackUrl']+'\n'
