@@ -45,9 +45,10 @@ async def xiaoIce(session:CommandSession):
             report += await getMsgFromXiaoIceFromHTTP(message,'text')
         print('get--->' + report)
         if report == '':
-            report = '[CQ:face,id=32]'
-        report = '[CQ:at,qq='+str(session.event.user_id)+']'\
-               + ' '+escape(report)
+            report = '[CQ:at,qq=' + str(session.event.user_id) + '] [CQ:face,id=32]'
+        else:
+            report = '[CQ:at,qq='+str(session.event.user_id)+']'\
+                + ' '+escape(report)
         await session.send(report)
 
 
