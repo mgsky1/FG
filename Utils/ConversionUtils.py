@@ -4,8 +4,10 @@
 @time: created on 2019/5/29 17:57
 @修改记录:2019/6/3 => 完成基础骨架
           2020/4/12 => 增加日期间秒数计算
+          2020/5/9 => base64转图片
 '''
 import time
+import base64
 class ConversionUtils:
     #将Byte(B)转换为Megabyte(M)
     def bytes2Megabytes(bytesNum):
@@ -26,3 +28,9 @@ class ConversionUtils:
             endTime = t
         interval = endTime - beginTime
         return round(interval)
+
+    # 将Base64代码转换成图片
+    def base642Img(path,b64code):
+        with open(path,'wb') as img:
+            img.write(base64.b64decode(b64code))
+

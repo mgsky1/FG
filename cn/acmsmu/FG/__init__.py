@@ -13,6 +13,7 @@ from cn.acmsmu.FG import ReportTimer
 from cn.acmsmu.FG import PodcastTimer
 from cn.acmsmu.FG import QAndA
 from cn.acmsmu.FG import XiaoIce
+from cn.acmsmu.FG import CleaningTimer
 from Utils.JsonUtils import JsonUtils
 from Utils.IOUtils import IOUtils
 

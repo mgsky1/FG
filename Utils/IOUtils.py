@@ -155,10 +155,11 @@ class IOUtils:
                 fList = []
                 IOUtils.__fileRecursionList(path,fList)
                 if fList.__len__() == 0:
-                    os.rmdir(path)
+                    pass
+                    # os.rmdir(path)
                 else:
                     IOUtils.deleteFiles(fList)
-                    os.rmdir(path)
+                    # os.rmdir(path)
         except FileNotFoundError as reason:
             print('错误！找不到文件')
     #合并文件

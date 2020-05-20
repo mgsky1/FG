@@ -1,0 +1,14 @@
+accept: application/json, text/plain, */*
+accept-encoding: gzip, deflate, br
+accept-language: zh-CN,zh;q=0.9
+content-type: application/x-www-form-urlencoded
+Cookie: _T_WM=63359099118; XSRF-TOKEN=9586cd; WEIBOCN_FROM=1110006030; SSOLoginState=1588435255; SUB=_2A25zqelnDeRhGeRI4loV9C3FwjiIHXVRVfcvrDV6PUJbktANLWj1kW1NUsJ-M2NVR3cdXQnrGb88_NWKh85wX1YH; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhUVDIrzPJ-G.AWyn0jM6CT5JpX5KzhUgL.Fozc1KnXShe41KB2dJLoIX.LxK.L1h5L1-2LxK-LB.-L1h5LxK-LBKBLBKMLxKqLBo-LBoMLxKML1-2L1hBLxK-LB.BLB.eLxK-LBozLBoyki--Ri-isiKLh; SUHB=0d4PIUWMnes3py; MLOGIN=1; M_WEIBOCN_PARAMS=lfid%3D102803%26luicode%3D20000174
+mweibo-pwa: 1
+origin: https://m.weibo.cn
+referer: https://m.weibo.cn/message/chat?uid=5175429989&name=msgbox
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-origin
+user-agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+x-requested-with: XMLHttpRequest
+X-XSRF-TOKEN: 9586cd

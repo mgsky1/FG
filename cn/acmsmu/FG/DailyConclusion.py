@@ -97,8 +97,8 @@ class DailyConlusion:
             wc = WordCloud(font_path=fontPath,mask=mask,background_color='white')
             wc.generate_from_frequencies(wordDic)
             figName = time.strftime("%Y-%m-%d%H-%M-%S",time.localtime())+'-'+str(round(random.uniform(0,100)))+'.png'
-            wc.to_file(docPath+figName)
-            url1 = NetUtils.jsonApi2Dict('https://api.d5.nz/api/dwz/tcn.php',https=True,url=reqType+'://'+domain+'/'+figName)
+            wc.to_file(os.path.join(docPath,'wc',figName))
+            url1 = NetUtils.jsonApi2Dict('https://api.d5.nz/api/dwz/tcn.php',https=True,url=reqType+'://'+domain+'/wc/'+figName)
             url2 = NetUtils.jsonApi2Dict('https://api.d5.nz/api/dwz/tcn.php',https=True,url=reqType+'://'+domain+'/'+todayMask['fileNameO'])
             if url1['code'] == '200' and url2['code'] == '200':
                 imginfo.append(url1['url'])
