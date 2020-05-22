@@ -7,10 +7,16 @@
 from nonebot import on_command,CommandSession
 from nonebot import on_natural_language,NLPSession,IntentCommand
 
-@on_command('getAudioBookWebside',aliases=('有声书'))
+@on_command('getAudioBookWebside',aliases=('小宇宙'))
 async def getAudioBookWebside(session:CommandSession):
     report = '[CQ:at,qq='+str(session.event.user_id)+']'\
              +' 聆听他人故事，精彩自己人生，欢迎进入哈哈笑的有声世界。https://www.hhx.xyz'
+    await session.send(report)
+
+@on_command('getAudioBookListPic',aliases=('哈哈笑作品集'))
+async def getAudioBookListPic(session:CommandSession):
+    report = '[CQ:at,qq=' + str(session.event.user_id) + ']' \
+             + ' 你要的图(感谢球状闪电追踪者供图)：http://33s.co/pwjb'
     await session.send(report)
 
 @on_command('whoAmI',aliases=('你是谁','你叫什么名字','你好'))
