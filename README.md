@@ -8,3 +8,7 @@
 > * 在每日总结中加入了《三体》好句和推荐科幻小说
 > * 三体好句源自[这个项目](https://github.com/AyagawaSeirin/ThreebodySpace)
 > * 科幻小说数据库来自[这个项目](https://github.com/faa2001/SFDB)
+
+## Credits
+- [来福](https://weibo.com/u/1650618111)
+- 球状闪电追踪着
