@@ -105,7 +105,7 @@ python bot.py
 ## ScreenShots
 每日总结
 
-![](https://blog.acmsmu.cn/wp-content/uploads/2020/04/20200407000945.png)
+![](https://xxx.ilovefishc.com/album/202006/06/184031f48ywycunihbixol.png)
 
 词云
 
