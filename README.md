@@ -23,7 +23,7 @@ FG的核心是一个称为**TextRank**的算法，它源自于Google的PageRank�
 > * nonebot >= 1.5.0 (需安装定时器插件，具体可见官方文档)
 > * wordcloud >= 1.6.0
 > * textrank4zh >= 0.3
-> * [CQHTTP 酷Q插件](https://cqhttp.cc/docs/4.14/#/) >=4.8
+> * [CQHTTP 酷Q插件](https://github.com/richardchien/coolq-http-api/releases) >=4.15.0
 
 ## Install
 
