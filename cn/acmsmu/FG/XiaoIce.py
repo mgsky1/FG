@@ -14,15 +14,40 @@ import uuid
 from nonebot import on_command,CommandSession
 from nonebot import on_natural_language,NLPSession,IntentCommand
 from Utils.JsonUtils import JsonUtils
+from Utils.IOUtils import IOUtils
 from aiocqhttp.message import escape
 
 configuration = JsonUtils.json2Dict(os.path.join(os.getcwd(),'cn','acmsmu','FG','data','config.json'))
 
 @on_command('xiaoIce')
 async def xiaoIce(session:CommandSession):
+    chatCount = int(configuration['chatCount'])
+    chatCount_c = -1
+    chatRemained = -1
     print('msg_type-->'+session.event['message_type'])
     # 为了避免未知隐患，只响应群请求
     if session.event['message_type'] == 'group':
+        # session.state.get参数列表？如何获取群号
+        print('msg from ->'+str(session.event['group_id']))
+        groupInfo = configuration['groupInfo']
+        # 如果从配置文件中找到接收消息的群，就更新该群的pkl，如果找不到，就不更新
+        # 特征变量
+        flag = False
+        for eachGroup in groupInfo:
+            if int(eachGroup['groupId']) == int(session.event['group_id']):
+                flag = True
+                dataDict = IOUtils.deserializeObjFromPkl(os.path.join(os.getcwd(), 'cn', 'acmsmu', 'FG', 'data', eachGroup['groupId'], 'var.pkl'))
+                chatCount_c = dataDict['chatCount']
+                print('chat count used->' + str(dataDict['chatCount']))
+                if chatCount_c  > chatCount:
+                    report = '今日的互动次数用完啦，明天再来吧~'
+                    await session.send(report)
+                else:
+                    dataDict['chatCount'] += 1
+                    IOUtils.serializeObj2Pkl(dataDict,os.path.join(os.getcwd(), 'cn', 'acmsmu', 'FG', 'data', eachGroup['groupId'], 'var.pkl'))
+
+        if not flag:
+            return
         message = session.state.get('message')
         imgUrls = session.state.get('imgUrls') if session.state.get('imgUrls') is not None else ''
         print('received--->'+message)
@@ -39,16 +64,22 @@ async def xiaoIce(session:CommandSession):
             print('receivedImg--->'+eachImg)
         # 先发送图片，再发送文字
         report = ''
+        suffix = ''
         for each in imgSendList:
             report += await getMsgFromXiaoIceFromHTTP(each,'img')
         if message != '':
             report += await getMsgFromXiaoIceFromHTTP(message,'text')
         print('get--->' + report)
+        if chatCount_c != -1:
+            chatRemained = chatCount - chatCount_c - 1
+            if chatRemained <= 10:
+                suffix = '\n今日，我还能和您互动'+str(chatRemained)+'次。'
         if report == '':
-            report = '[CQ:at,qq=' + str(session.event.user_id) + '] [CQ:face,id=32]'
+            report = '[CQ:at,qq=' + str(session.event.user_id) + '] [CQ:face,id=32]'+suffix
         else:
             report = '[CQ:at,qq='+str(session.event.user_id)+']'\
-                + ' '+escape(report)
+                + ' '+escape(report)+suffix
+
         await session.send(report)
 
 

@@ -25,6 +25,7 @@ for each in groupInfo:
         dataDict = dict()
         dataDict['flag'] = True
         dataDict['file'] = 'chatA.txt'
+        dataDict['chatCount'] = 0
         IOUtils.mkdir(fpath)
         IOUtils.serializeObj2Pkl(dataDict, fpath + '/var.pkl')
     except FileExistsError:

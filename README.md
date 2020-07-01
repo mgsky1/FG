@@ -4,7 +4,11 @@
 > * 增加了欢迎新成员功能
 > * 增加了找书功能
 > * 增加了每日有声书更新提醒功能
-> * 接入微软小冰，基于[这个项目](https://github.com/BennyThink/realXiaoice)
+> * 接入微软小冰(有触发次数限制，默认每天100次)，基于[这个项目](https://github.com/BennyThink/realXiaoice)
 > * 在每日总结中加入了《三体》好句和推荐科幻小说
 > * 三体好句源自[这个项目](https://github.com/AyagawaSeirin/ThreebodySpace)
 > * 科幻小说数据库来自[这个项目](https://github.com/faa2001/SFDB)
+
+## Credits
+- [来福](https://weibo.com/u/1650618111)
+- 球状闪电追踪者

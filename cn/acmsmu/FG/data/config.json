@@ -10,6 +10,7 @@
     "nonebotPort":8080,
     "cqhttpHost":"127.0.0.1",
     "cqhttpPort":5700,
+    "chatCount":100,
     "groupInfo":[
         {
             "timer":"timer1",
