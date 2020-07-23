@@ -15,7 +15,7 @@ import urllib.request
 from threading import Lock
 from Utils.ConversionUtils import ConversionUtils
 from Utils.IOUtils import IOUtils
-from JsonUtils import JsonUtils
+from Utils.JsonUtils import JsonUtils
 
 class NetUtils:
 
