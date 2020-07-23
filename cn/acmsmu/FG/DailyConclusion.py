@@ -98,6 +98,7 @@ class DailyConlusion:
             wc.generate_from_frequencies(wordDic)
             figName = time.strftime("%Y-%m-%d%H-%M-%S",time.localtime())+'-'+str(round(random.uniform(0,100)))+'.png'
             wc.to_file(os.path.join(docPath,'wc',figName))
+            '''
             url1 = NetUtils.jsonApi2Dict('https://api.d5.nz/api/dwz/tcn.php',https=True,url=reqType+'://'+domain+'/wc/'+figName)
             url2 = NetUtils.jsonApi2Dict('https://api.d5.nz/api/dwz/tcn.php',https=True,url=reqType+'://'+domain+'/'+todayMask['fileNameO'])
             if url1['code'] == '200' and url2['code'] == '200':
@@ -106,6 +107,9 @@ class DailyConlusion:
             else:
                 imginfo.append('网络错误，无法显示图片')
                 imginfo.append('网络错误，无线显示图片')
+            '''
+            imginfo.append(reqType+'://'+domain+'/wc/'+figName)
+            imginfo.append(reqType+'://'+domain+'/'+todayMask['fileNameO'])
             imginfo.append(desc)
             for i in range(3):
                 report += 'Top' + str(i+1) + '：'+ list(wordDic.keys())[i]+'\n'
@@ -125,6 +129,9 @@ class DailyConlusion:
                 break
         tempReport = self.__generateWC()
         sentences = ExtraFunction.quotesAndBooks()
+        # FG的今日宇宙（DCGAN模型预生成图片）
+        uniId = random.randint(0,299)
+        uniImgURL = self.__configuration['reqType'] + '://'+self.__configuration['domain']+'/uni/'+str(uniId)+'.png'
         if tempReport is None:
             for eachLine in template2.items():
                 tempStr = eachLine[1]
@@ -132,6 +139,8 @@ class DailyConlusion:
                     tempStr = tempStr.replace('{string}',sentences[0])
                 elif eachLine[0] == 'recbooks':
                     tempStr = tempStr.replace('{string}',sentences[1])
+                elif eachLine[0] == 'uniImg':
+                    tempStr = tempStr.replace('{string}',uniImgURL)
                 report += tempStr+'\n'
             return report
         else:
@@ -152,5 +161,7 @@ class DailyConlusion:
                     tempStr = tempStr.replace('{string}',sentences[0])
                 elif eachLine[0] == 'recbooks':
                     tempStr = tempStr.replace('{string}',sentences[1])
+                elif eachLine[0] == 'uniImg':
+                    tempStr = tempStr.replace('{string}',uniImgURL)
                 report += tempStr+'\n'
             return report
