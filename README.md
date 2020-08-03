@@ -1,5 +1,6 @@
 # FG 
-**由于酷Q平台已停运，此Repo将存档不再更新，FG的更多功能请移步hhx分支，感谢各位githuber的支持**
+**由于[酷Q](https://cqp.cc/)平台停运，故本Repo所有分支将存档并不再更新。FG的更多功能请移步[hhx](https://github.com/mgsky1/FG/tree/hhx)分支。感谢各位githuber的支持！**
+
 ## Summary
 
 一个基于Nonebot的QQ群每日总结生成插件，可以根据每日的聊天信息生成每日热词，并以词云方式可视化展示
