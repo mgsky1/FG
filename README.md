@@ -28,7 +28,7 @@ DCGAN网络模型如下，可以说是一个比较成熟的框架了：
 
 模型构建的框架为[pytorch](https://pytorch.org/)
 
-## None
+## Note
 数据集说明：
 > * 星云数据集包含249张由哈勃望远镜拍摄的星云图片，可能有重复项目，分辨率为256*256
 > * 图片来自[*spacetelescope*](https://www.spacetelescope.org/)
