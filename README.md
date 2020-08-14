@@ -105,7 +105,6 @@ pip install -r requirement.txt
 }
 ```
 ## Run
-在`cn/acmsmu/FG/data/`下手动创建`images`和`wc`文件夹，前者用于放词云原图和mask，后者是词云输出
 配置完成后，在根目录下运行
 ```python
 python bot.py
