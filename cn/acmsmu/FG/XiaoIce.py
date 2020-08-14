@@ -99,8 +99,11 @@ async def getMsgFromXiaoIceFromHTTP(message:str,type:str) -> str:
     # 过滤html链接部分，只保留文字
     # re.sub('.+<\/?[\s\S]*?(?:".*")*>.+', '', msg)
     msg = re.sub('<.+>', '', msg)
-    msg = msg.replace('小冰','FG')
-    msg = msg.replace('本冰','本超级计算机')
+    msg = msg.replace('小冰', 'FG')
+    msg = msg.replace('本冰', '本超级计算机')
+    msg = msg.replace('少女', '帅哥')
+    msg = msg.replace('姐姐', '帅哥')
+    msg = msg.replace('智慧哥哥', '小哥哥/小姐姐')
     return msg
 
 print('微软小冰加载成功')

@@ -141,10 +141,7 @@ def __getResponse(sendingTimeStamp:int,countn:int) -> str:
             fileName = str(uuid.uuid1()) + '.jpg'
             configuration = JsonUtils.json2Dict(os.path.join(os.getcwd(), 'cn', 'acmsmu', 'FG', 'data', 'config.json'))
             ConversionUtils.base642Img(os.path.join(configuration['serverPath'],'chatImg',fileName),base64_image)
-            url1 = NetUtils.jsonApi2Dict('https://api.d5.nz/api/dwz/tcn.php', https=True,
-                                         url=configuration['reqType']+'://'+configuration['domain']+'/chatImg/'+fileName)
-            if url1['code'] == '200':
-                eachMsg['text'] = url1['url']
+            eachMsg['text'] = configuration['reqType'] + '://' + configuration['domain'] + '/chatImg/' + fileName
         response_message += __remove_bad_html(eachMsg['text'])
     return response_message
 
