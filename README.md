@@ -44,6 +44,8 @@ pip install -r requirement.txt
 词云输出位置
 > * cn/acmsmu/FG/data/asssets/wc
 
+词云原图与Mask位置
+> * cn/acmsmu/FG/data/asssets/images
 
 ### config.json
 
