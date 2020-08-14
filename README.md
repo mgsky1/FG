@@ -1,10 +1,13 @@
-# FG 
-**由于[酷Q](https://cqp.cc/)平台停运，故本Repo所有分支将存档并不再更新。FG的更多功能请移步[hhx](https://github.com/mgsky1/FG/tree/hhx)分支。感谢各位githuber的支持！**
+# FG-Mirai
+
+## 移植说明
+- **此版本可在Mriai+[cqhttp-mirai](https://github.com/yyuueexxiinngg/cqhttp-mirai)支持下运行**
+- 与酷Q不同，Mriai是在底层代码中实现了Android QQ 8.2.7客户端，不需要连接第三方服务器，能活得更久些，除非tx终止Android QQ登陆，就像塞班一样。同时支持当时酷Q pro的发图等高级功能
+- 本次移植的改动就是由链接发图修改为CQ码发图
 
 ## Summary
 
 一个基于Nonebot的QQ群每日总结生成插件，可以根据每日的聊天信息生成每日热词，并以词云方式可视化展示
->  注：**此插件暂时只针对酷Q air设计**
 
 ## Technology
 
@@ -24,7 +27,8 @@ FG的核心是一个称为[**TextRank**](assets/TextRank-algorithm.pdf)的算法
 > * nonebot >= 1.5.0 (需安装定时器插件，具体可见官方文档)
 > * wordcloud >= 1.6.0
 > * textrank4zh >= 0.3
-> * [CQHTTP 酷Q插件](https://github.com/richardchien/coolq-http-api/releases) >=4.15.0
+> * [CQHTTP Mirai](https://github.com/yyuueexxiinngg/cqhttp-mirai/releases) >= 0.1.9
+> * [Mirai OK](http://rbot.d522.com/file/MiraiOK20200807.zip)
 
 ## Install
 
@@ -37,15 +41,16 @@ pip install -r requirement.txt
 配置文件位置
 > * cn/acmsmu/FG/data/config.json
 
+词云输出位置
+> * cn/acmsmu/FG/data/asssets/wc
+
+
 ### config.json
 
-下面是一个样例
+下面是一个配置样例
 
 ```
 {
-    "serverPath":"D:/DocumentRoot/", //存放图片的目录，要保证能够通过域名或ip+端口号的形式访问。由于air不能发图，所以图片都是通过链接发送的。注意，一定要以反斜杠结尾！
-    "domain":"test.com",//域名，如果没有的话可以填写ip+端口号,eg. 127.0.0.1:9000
-    "reqType":"http",//图片网站请求类型,http或者https
     "windowSize":5,//设置TextRank算法的窗口大小，默认为5
     "keyWordLen":3,//小于此长度的词将不会被显示，默认为3
     "keyWordNum":50,//热词数量，默认50
@@ -65,8 +70,8 @@ pip install -r requirement.txt
     "wcImg":[//用于生成词云的图片数组
         {
             "desc":"刘慈欣",//图片描述
-            "fileNameO":"lcx.jpg",//原始图片，用于展示，存放位置一定要在前面定义的serverPath下
-            "fileNameU":"lcx.png"//使用图片，即真正用来生成词云的图片，要求除了主体之外，背景为白色，存放位置一定要在前面定义的serverPath下
+            "fileNameO":"lcx.jpg",//原始图片，用于展示，存放位置cn/acmsmu/FG/data/assets/images文件夹下
+            "fileNameU":"lcx.png"//使用图片，即真正用来生成词云的图片，要求除了主体之外，背景为白色，存放位置cn/acmsmu/FG/data/assets/images文件夹下
         }
     ],
     "template":[{//总结模板数组，一个群要定义两个，一个正常模式，另外一个用于没有热词生成时使用，模板里出现的time，content等非数字标签请不要修改，但是位置可以随意，并没有要求要全部出现，出现其中的某些也是可以的
@@ -106,7 +111,7 @@ python bot.py
 ## ScreenShots
 每日总结
 
-![](https://xxx.ilovefishc.com/album/202006/06/184031f48ywycunihbixol.png)
+![](assets/02.png)
 
 词云
 

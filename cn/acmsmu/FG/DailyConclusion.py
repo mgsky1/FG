@@ -72,9 +72,6 @@ class DailyConlusion:
         keyWordLen = self.__configuration['keyWordLen']
         keyWordNum = self.__configuration['keyWordNum']
         fontPath = self.__configuration['fontPath']
-        docPath = self.__configuration['serverPath']
-        reqType = self.__configuration['reqType']
-        domain = self.__configuration['domain']
         chatlog = self.__chatlog
         # 随机获取一张图片作为mask
         temp = []
@@ -82,7 +79,7 @@ class DailyConlusion:
             temp.append(i)
         index = random.choice(temp)
         todayMask = maskArray[index]
-        imageU = docPath + todayMask['fileNameU']
+        imageU = os.path.join(os.getcwd(),'cn','acmsmu','FG','data','assets','images',todayMask['fileNameU'])
         desc = todayMask['desc']
         mask = np.array(Image.open(imageU))
         try:
@@ -94,15 +91,9 @@ class DailyConlusion:
             wc = WordCloud(font_path=fontPath,mask=mask,background_color='white')
             wc.generate_from_frequencies(wordDic)
             figName = time.strftime("%Y-%m-%d%H-%M-%S",time.localtime())+'-'+str(round(random.uniform(0,100)))+'.png'
-            wc.to_file(docPath+figName)
-            url1 = NetUtils.jsonApi2Dict('https://api.d5.nz/api/dwz/tcn.php',https=True,url=reqType+'://'+domain+'/'+figName)
-            url2 = NetUtils.jsonApi2Dict('https://api.d5.nz/api/dwz/tcn.php',https=True,url=reqType+'://'+domain+'/'+todayMask['fileNameO'])
-            if url1['code'] == '200' and url2['code'] == '200':
-                imginfo.append(url1['url'])
-                imginfo.append(url2['url'])
-            else:
-                imginfo.append('网络错误，无法显示图片')
-                imginfo.append('网络错误，无线显示图片')
+            wc.to_file(os.path.join(os.getcwd(),'cn','acmsmu','FG','data','assets','wc',figName))
+            imginfo.append('[CQ:image,file=' + os.path.join(os.getcwd(),'cn','acmsmu','FG','data','assets','wc',figName) + ']')
+            imginfo.append('[CQ:image,file=' + os.path.join(os.getcwd(),'cn','acmsmu','FG','data','assets','images',todayMask['fileNameO']) + ']')
             imginfo.append(desc)
             for i in range(3):
                 report += 'Top' + str(i+1) + '：'+ list(wordDic.keys())[i]+'\n'

@@ -1,7 +1,4 @@
 {
-    "serverPath":"",
-    "domain":"",
-    "reqType":"http",
     "windowSize":5,
     "keyWordLen":3,
     "keyWordNum":50,
@@ -26,7 +23,7 @@
         }
     ],
     "template":[{
-        "groupId":"",
+        "groupId":"691283312",
         "content":[
         {
             "0":"@所有人",
