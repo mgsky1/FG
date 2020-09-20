@@ -1,5 +1,5 @@
 # FG-Mirai
-
+![](https://img.shields.io/badge/OneBot-v11-black)
 ## 移植说明
 - **此版本可在Mirai+[cqhttp-mirai](https://github.com/yyuueexxiinngg/cqhttp-mirai)支持下运行**
 - 与酷Q不同，Mirai是在底层代码中实现了Android QQ 8.2.7客户端，不需要连接第三方服务器，能活得更久些，除非tx终止Android QQ登陆，就像塞班一样。同时支持当时酷Q pro的发图等高级功能
