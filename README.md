@@ -34,7 +34,7 @@ FG的核心是一个称为[**TextRank**](assets/TextRank-algorithm.pdf)的算法
 
 进入项目根目录，然后运行
 ```
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 ## Configuration
