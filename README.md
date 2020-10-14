@@ -120,4 +120,4 @@ python bot.py
 ![](https://blog.acmsmu.cn/wp-content/uploads/2020/04/20200407001508.png)
 
 ## Note
-FG也即Five Generation，第五代超级计算机，灵感来自于刘慈欣长篇科幻，《超新星纪元》
+FG也即Fifth Generation，第五代超级计算机，灵感来自于刘慈欣长篇科幻，《超新星纪元》
