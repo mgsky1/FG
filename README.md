@@ -119,5 +119,11 @@ python bot.py
 
 ![](https://blog.acmsmu.cn/wp-content/uploads/2020/04/20200407001508.png)
 
+## Support
+这个项目的开发环境由[JetBrains](https://www.jetbrains.com/)提供，感谢对本项目的支持！
+
+![](assets/jetbrains-variant-2.png)
+
+
 ## Note
 FG也即Fifth Generation，第五代超级计算机，灵感来自于刘慈欣长篇科幻，《超新星纪元》
