@@ -7,7 +7,7 @@
 > * 增加了欢迎新成员功能
 > * 增加了找书功能
 > * 增加了每日有声书更新提醒功能
-> * 接入微软小冰(有触发次数限制，默认每天100次)，基于[这个项目](https://github.com/BennyThink/realXiaoice)
+> * 接入微软小冰(有触发次数限制，默认每天100次)，基于[这个项目(开发者之一，主要贡献是增加发送图片部分)](https://github.com/BennyThink/realXiaoice)
 > * 在每日总结中加入了《三体》好句和推荐科幻小说
 > * 利用DCGAN神经网络模型生成宇宙星云图片。[星云数据集](assets/dataset.zip)、[模型](assets/DCGAN.py)、[图片生成代码](assets/LoadModel.py)
 > * 三体好句源自[这个项目](https://github.com/AyagawaSeirin/ThreebodySpace)
