@@ -119,10 +119,15 @@ python bot.py
 
 ![](https://blog.acmsmu.cn/wp-content/uploads/2020/04/20200407001508.png)
 
-## Support
-这个项目的开发环境由[JetBrains](https://www.jetbrains.com/)提供，感谢对本项目的支持！
+## TODO
+- [ ] 支持自定义字典
 
-![](assets/jetbrains-variant-2.png)
+- [ ] 将定制分支中的微软小冰聊天功能加入
+
+## Support
+这个项目的开发环境由JetBrains提供，感谢对本项目的支持！
+
+[<img src="assets/jetbrains-variant-2.png" width="200"/>](https://www.jetbrains.com/)
 
 
 ## Note
