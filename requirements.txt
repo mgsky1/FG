@@ -44,7 +44,6 @@ rfc3986==1.3.2
 six==1.14.0
 sniffio==1.1.0
 soupsieve==2.0
-textrank4zh==0.3
 toml==0.10.0
 typing-extensions==3.7.4.2
 tzlocal==2.0.0

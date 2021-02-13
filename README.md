@@ -38,6 +38,9 @@ pip install -r requirements.txt
 ```
 
 ## Configuration
+
+**如果文件夹不存在，需自行创建**
+
 配置文件位置
 > * cn/acmsmu/FG/data/config.json
 
@@ -46,6 +49,10 @@ pip install -r requirements.txt
 
 词云原图与Mask位置
 > * cn/acmsmu/FG/data/asssets/images
+
+
+自定义词典位置
+> * cn/acmsmu/FG/data/myDict.txt
 
 ### config.json
 
@@ -104,6 +111,19 @@ pip install -r requirements.txt
     }]
 }
 ```
+
+### 自定义词典配置
+
+用户可以设置自定义词典，来避免一些专有词被分词工具分割的情况。
+
+例如：`三体人`是一整个词，如果不使用自定义词典，那么可能被分词工具分割成`三体`和`人`两个词，这是不合适的。
+
+自定义词典的格式如下：
+
+```
+终产者 n // 空格前为词名，空格后为词性，由于关键词一般是名词，所以使用n(noun)
+```
+
 ## Run
 配置完成后，在根目录下运行
 ```python
@@ -120,7 +140,7 @@ python bot.py
 ![](https://blog.acmsmu.cn/wp-content/uploads/2020/04/20200407001508.png)
 
 ## TODO
-- [ ] 支持自定义字典
+- [x] 支持自定义字典
 
 - [ ] 将定制分支中的微软小冰聊天功能加入
 

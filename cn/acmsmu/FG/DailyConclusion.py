@@ -4,10 +4,9 @@
 @Date: 2020-04-03 10:01:18
 @Modify Notes: 
 '''
-from textrank4zh import TextRank4Keyword
+from Utils.ml.TextRank4ZH import TextRank4Keyword
 from Utils.JsonUtils import JsonUtils
 from Utils.IOUtils import IOUtils
-from Utils.NetUtils import NetUtils
 from PIL import Image
 from wordcloud import WordCloud
 import os
@@ -83,7 +82,7 @@ class DailyConlusion:
         desc = todayMask['desc']
         mask = np.array(Image.open(imageU))
         try:
-            tr4w = TextRank4Keyword()
+            tr4w = TextRank4Keyword.TextRank4Keyword()
             tr4w.analyze(text=chatlog,lower=True,window=windowSize)
             wordDic = dict()
             for item in tr4w.get_keywords(keyWordNum,word_min_len=keyWordLen):
