@@ -26,7 +26,7 @@ FG的核心是一个称为[**TextRank**](assets/TextRank-algorithm.pdf)的算法
 > * Python >= 3.7
 > * nonebot >= 1.5.0 (需安装定时器插件，具体可见官方文档)
 > * wordcloud >= 1.6.0
-> * textrank4zh >= 0.3
+> * textrank4zh(内置)
 > * [CQHTTP Mirai](https://github.com/yyuueexxiinngg/cqhttp-mirai/releases) >= 0.1.9
 > * [Mirai OK](http://rbot.d522.com/file/MiraiOK20200807.zip)
 
