@@ -1,5 +1,10 @@
 # FG-Mirai
 ![](https://img.shields.io/badge/OneBot-v10-black)
+
+## 关于支持Nonebot2
+
+有小伙伴在issue中提到了这个问题，我觉得是可以支持的，目前这个项目基本由我一人维护，如果有小伙伴愿意帮助迁移Nonebot2，可以提issue或者可以发邮件至hzy@acmsmu.cn，我很欢迎～
+
 ## 移植说明
 - **此版本可在Mirai+[cqhttp-mirai](https://github.com/yyuueexxiinngg/cqhttp-mirai)支持下运行**
 - 与酷Q不同，Mirai是在底层代码中实现了Android QQ 8.2.7客户端，不需要连接第三方服务器，能活得更久些，除非tx终止Android QQ登陆，就像塞班一样。同时支持当时酷Q pro的发图等高级功能
