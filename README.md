@@ -154,6 +154,12 @@ python bot.py
 
 [<img src="assets/jetbrains-variant-2.png" width="200"/>](https://www.jetbrains.com/)
 
+## Credits
+
+- 机器人-丹尼尔·奥利瓦
+- [来福](https://weibo.com/u/1650618111)
+- [-禾呈-](https://www.hecheng.moe/)
+
 
 ## Note
 FG也即Fifth Generation，第五代超级计算机，灵感来自于刘慈欣长篇科幻，《超新星纪元》

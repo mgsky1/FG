@@ -91,8 +91,8 @@ class DailyConlusion:
             wc.generate_from_frequencies(wordDic)
             figName = time.strftime("%Y-%m-%d%H-%M-%S",time.localtime())+'-'+str(round(random.uniform(0,100)))+'.png'
             wc.to_file(os.path.join(os.getcwd(),'cn','acmsmu','FG','data','assets','wc',figName))
-            imginfo.append('[CQ:image,file=' + os.path.join(os.getcwd(),'cn','acmsmu','FG','data','assets','wc',figName) + ']')
-            imginfo.append('[CQ:image,file=' + os.path.join(os.getcwd(),'cn','acmsmu','FG','data','assets','images',todayMask['fileNameO']) + ']')
+            imginfo.append('[CQ:image,file=file:///' + os.path.join(os.getcwd(),'cn','acmsmu','FG','data','assets','wc',figName) + ']')
+            imginfo.append('[CQ:image,file=file:///' + os.path.join(os.getcwd(),'cn','acmsmu','FG','data','assets','images',todayMask['fileNameO']) + ']')
             imginfo.append(desc)
             for i in range(3):
                 report += 'Top' + str(i+1) + '：'+ list(wordDic.keys())[i]+'\n'
