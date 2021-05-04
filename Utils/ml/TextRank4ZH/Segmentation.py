@@ -16,7 +16,7 @@ from Utils.ml.TextRank4ZH import util
 
 def get_default_stop_words_file():
     d = os.path.dirname(os.path.realpath(__file__))
-    return os.path.join(d, 'stopwords.txt')
+    return os.path.join(d, '../../../cn/acmsmu/FG/data/stopwords.txt')
 
 def get_user_dict_file():
     d = os.path.dirname(os.path.realpath(__file__))

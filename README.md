@@ -31,7 +31,7 @@ FG的核心是一个称为[**TextRank**](assets/TextRank-algorithm.pdf)的算法
 > * Python >= 3.7
 > * nonebot >= 1.5.0 (需安装定时器插件，具体可见官方文档)
 > * wordcloud >= 1.6.0
-> * textrank4zh(内置)
+> * [textrank4zh](https://github.com/letiantian/TextRank4ZH)(内置)
 > * [CQHTTP Mirai](https://github.com/yyuueexxiinngg/cqhttp-mirai/releases) >= 0.1.9
 > * [Mirai OK](http://rbot.d522.com/file/MiraiOK20200807.zip)
 
@@ -55,9 +55,11 @@ pip install -r requirements.txt
 词云原图与Mask位置
 > * cn/acmsmu/FG/data/asssets/images
 
-
 自定义词典位置
 > * cn/acmsmu/FG/data/myDict.txt
+
+自定义停顿词位置
+> * cn/acmsmu/FG/data/stopwords.txt
 
 ### config.json
 
@@ -128,6 +130,11 @@ pip install -r requirements.txt
 ```
 终产者 n // 空格前为词名，空格后为词性，由于关键词一般是名词，所以使用n(noun)
 ```
+
+### 自定义停顿词配置
+
+有时候我们聊天的时候会出现：的、吗、不然等之类的词，这些都属于没有意义的词，我们把它归结为停顿词，在仓库中已经内置了一部分停顿词，如果有需要可以在
+`stopwords.txt`中修改。
 
 ## Run
 配置完成后，在根目录下运行
