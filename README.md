@@ -3,7 +3,7 @@
 
 ## 关于支持Nonebot2
 
-Nonebot2引入了许多丰富的新特性，适配正在进行中，敬请期待～
+现已支持nonebot2，仓库地址：[FG-plugin](https://github.com/mgsky1/FG-plugin)
 
 ## 移植说明
 - **此版本可在Mirai+[cqhttp-mirai](https://github.com/yyuueexxiinngg/cqhttp-mirai)支持下运行**
