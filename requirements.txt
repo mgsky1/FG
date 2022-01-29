@@ -47,7 +47,7 @@ soupsieve==2.0
 toml==0.10.0
 typing-extensions==3.7.4.2
 tzlocal==2.0.0
-urllib3==1.25.8
+urllib3==1.26.5
 Werkzeug==1.0.1
 wordcloud==1.6.0
 wrapt==1.11.2
